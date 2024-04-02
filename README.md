@@ -1,3 +1,8 @@
+```
+Name: G.TEJASWINI
+Reg no: 212222230157
+```
+
 ## EXPERIMENT-01-ALP FOR 8086
 
 ## Aim: 
