@@ -91,6 +91,58 @@ ret
 ## Output  
 ![Screenshot (71)](https://github.com/TejaswiniGugananthan/EXPERIMENT--01-ALP-FOR-8086/assets/121222763/262bc631-1a40-480e-bd5a-fb7537f20c79)
 
+## AND alp
+```python
+org 100h
+MOV bx,1000h;
+AND bx,1111h;
+MOV [0040h+02],bx;
+ret
+```
+## Output
+![image](https://github.com/TejaswiniGugananthan/EXPERIMENT--01-ALP-FOR-8086/assets/121222763/0a80b5ce-507a-4b5b-be62-218a57583d94)
+
+## OR alp
+```python
+org 100h
+MOV ax,[0070h];
+MOV bx,1000h;
+OR ax,bx;
+MOV [0060h],ax;
+ret
+```
+
+## Output
+![image](https://github.com/TejaswiniGugananthan/EXPERIMENT--01-ALP-FOR-8086/assets/121222763/007b4bf6-cdbd-4f28-98c7-1f991fdbc237)
+
+
+## NOT alp
+```python
+org 100h
+MOV bx,0060h;
+MOV ax,[bx]; 
+NOT al;
+MOV [0060h+04],ax;
+ret
+```
+## Output
+![image](https://github.com/TejaswiniGugananthan/EXPERIMENT--01-ALP-FOR-8086/assets/121222763/438d5f7c-df4c-481c-b04c-e428e1576bb0)
+
+
+
+## XOR alp
+```python
+org 100h
+MOV bx,0050h;
+MOV ax,[bx]; 
+XOR ax,bx;
+MOV [0050h+03],ax;
+ret
+```
+## Output
+
+![image](https://github.com/TejaswiniGugananthan/EXPERIMENT--01-ALP-FOR-8086/assets/121222763/99e4618c-7e45-41a8-a20d-cfaa95c67c35)
+
 
 ## Result :
 Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
