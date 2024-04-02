@@ -91,6 +91,9 @@ ret
 ## Output  
 ![Screenshot (71)](https://github.com/TejaswiniGugananthan/EXPERIMENT--01-ALP-FOR-8086/assets/121222763/262bc631-1a40-480e-bd5a-fb7537f20c79)
 
+
+## Programs for logical operations:
+
 ## AND alp
 ```python
 org 100h
